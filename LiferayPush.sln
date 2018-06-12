@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiferayPush-iOS-Binding", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Push-iOS", "Push-iOS\Push-iOS.csproj", "{D3DE1FCF-273E-4642-B82B-06FF865F6788}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Liferay-Push-Android-Binding", "Liferay-Push-Android-Binding\Liferay-Push-Android-Binding.csproj", "{BF3237D1-E891-436C-A28E-980786F4A76F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,5 +41,17 @@ Global
 		{D3DE1FCF-273E-4642-B82B-06FF865F6788}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
 		{D3DE1FCF-273E-4642-B82B-06FF865F6788}.Debug|iPhone.ActiveCfg = Debug|iPhone
 		{D3DE1FCF-273E-4642-B82B-06FF865F6788}.Debug|iPhone.Build.0 = Debug|iPhone
+		{BF3237D1-E891-436C-A28E-980786F4A76F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF3237D1-E891-436C-A28E-980786F4A76F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF3237D1-E891-436C-A28E-980786F4A76F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF3237D1-E891-436C-A28E-980786F4A76F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF3237D1-E891-436C-A28E-980786F4A76F}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{BF3237D1-E891-436C-A28E-980786F4A76F}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{BF3237D1-E891-436C-A28E-980786F4A76F}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{BF3237D1-E891-436C-A28E-980786F4A76F}.Release|iPhone.Build.0 = Release|Any CPU
+		{BF3237D1-E891-436C-A28E-980786F4A76F}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{BF3237D1-E891-436C-A28E-980786F4A76F}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{BF3237D1-E891-436C-A28E-980786F4A76F}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{BF3237D1-E891-436C-A28E-980786F4A76F}.Debug|iPhone.Build.0 = Debug|Any CPU
 	EndGlobalSection
 EndGlobal
