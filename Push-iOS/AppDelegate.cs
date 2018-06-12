@@ -45,8 +45,8 @@ namespace PushiOS
             LRSession Session = new LRSession("http://192.168.50.124:8080/", BasicAuthentication);
             LRPush.WithSession(Session)
                   .WithPortalVersion(70)
-                  .OnSuccess((obj) => Console.WriteLine("success"))
-                  .OnFailure((err) => Console.WriteLine($"failed: {err}"))
+                  .OnSuccess((obj) => Console.WriteLine("Device registered successfully!"))
+                  .OnFailure((err) => Console.WriteLine($"Device registered failed: {err.LocalizedDescription}"))
                   .RegisterDeviceTokenData(deviceToken);
         }
 
