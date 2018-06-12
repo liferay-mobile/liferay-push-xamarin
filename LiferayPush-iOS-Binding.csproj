@@ -41,6 +41,14 @@
     <ObjcBindingCoreSource Include="Structs.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="LRMobileSDK\" />
+    <Folder Include="Core\" />
+  </ItemGroup>
+  <ItemGroup>
+    <NativeReference Include="Frameworks\AFNetworking.framework">
+      <Kind>Framework</Kind>
+      <SmartLink>False</SmartLink>
+    </NativeReference>
     <NativeReference Include="Frameworks\LiferayPush.framework">
       <Kind>Framework</Kind>
       <SmartLink>False</SmartLink>
@@ -49,14 +57,6 @@
       <Kind>Framework</Kind>
       <SmartLink>False</SmartLink>
     </NativeReference>
-    <NativeReference Include="Frameworks\AFNetworking.framework">
-      <Kind>Framework</Kind>
-      <SmartLink>False</SmartLink>
-    </NativeReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="LRMobileSDK\" />
-    <Folder Include="Core\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.ObjCBinding.CSharp.targets" />
 </Project>
