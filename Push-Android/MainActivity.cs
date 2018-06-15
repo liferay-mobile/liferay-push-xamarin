@@ -16,7 +16,7 @@ namespace PushAndroid
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.Main);
 
-            var Session = new SessionImpl("http://10.0.2.2:8080", new BasicAuthentication("test@liferay.com", "test"));
+            var Session = new SessionImpl("http://10.0.3.2:8080", new BasicAuthentication("test@liferay.com", "test"));
             Push.With(Session)
                 .WithPortalVersion(70)
                 .OnSuccess(this)

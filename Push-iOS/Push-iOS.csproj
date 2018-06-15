@@ -133,9 +133,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\LiferayPush-iOS-Binding.csproj">
-      <Project>{4D92FBB3-A689-4E7F-A4F9-13431D8D5D33}</Project>
-      <Name>LiferayPush-iOS-Binding</Name>
+    <ProjectReference Include="..\Liferay-Push-iOS-Binding\Liferay-Push-iOS-Binding.csproj">
+      <Project>{5D4298F2-ADA1-4D20-86DE-6854E3CAF464}</Project>
+      <Name>Liferay-Push-iOS-Binding</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />

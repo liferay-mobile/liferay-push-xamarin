@@ -1,8 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-    <!-- CS0534 -->
-    <remove-node path="/api/package[@name='com.liferay.mobile.push.task']/class[@name='GoogleCloudMessagingAsyncTask']/method[@name='doInBackground']"/>
-
     <!-- BG8401 -->
     <attr path="api/package[@name='com.liferay.mobile.push']/class[@name='Push']/field[@name='onFailure']" name="managedName">OnFailureField</attr>
     <attr path="api/package[@name='com.liferay.mobile.push']/class[@name='Push']/field[@name='onSuccess']" name="managedName">OnSuccessField</attr>
