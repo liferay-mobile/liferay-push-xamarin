@@ -89,10 +89,6 @@
     <Folder Include="Resources\drawable\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\LiferayAndroidSdk.BindingLibrary\LiferayAndroidSdk.BindingLibrary.csproj">
-      <Project>{987C9DF7-DD6A-40F4-8D1C-8A5757162994}</Project>
-      <Name>LiferayAndroidSdk.BindingLibrary</Name>
-    </ProjectReference>
     <ProjectReference Include="..\OkHttp.BindingLibrary\OkHttp.BindingLibrary.csproj">
       <Project>{A98329E1-0BB3-476B-B131-F77914143689}</Project>
       <Name>OkHttp.BindingLibrary</Name>
@@ -104,6 +100,10 @@
     <ProjectReference Include="..\Liferay-Push-Android-Binding\Liferay-Push-Android-Binding.csproj">
       <Project>{BF3237D1-E891-436C-A28E-980786F4A76F}</Project>
       <Name>Liferay-Push-Android-Binding</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LiferayAndroidSdk.BindingLibrary\LiferayAndroidSdk.BindingLibrary.csproj">
+      <Project>{987C9DF7-DD6A-40F4-8D1C-8A5757162994}</Project>
+      <Name>LiferayAndroidSdk.BindingLibrary</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />

@@ -3,12 +3,12 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BF3237D1-E891-436C-A28E-980786F4A76F}</ProjectGuid>
+    <ProjectGuid>{987C9DF7-DD6A-40F4-8D1C-8A5757162994}</ProjectGuid>
     <ProjectTypeGuids>{10368E6C-D01B-4462-8E8B-01FC667A7035};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
-    <RootNamespace>LiferayPushAndroidBinding</RootNamespace>
-    <AssemblyName>Liferay-Push-Android-Binding</AssemblyName>
-    <TargetFrameworkVersion>v4.1</TargetFrameworkVersion>
+    <RootNamespace>LiferayAndroidSdk.BindingLibrary</RootNamespace>
+    <AssemblyName>LiferayAndroidSdk.BindingLibrary</AssemblyName>
+    <TargetFrameworkVersion>v4.0.3</TargetFrameworkVersion>
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
     <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
@@ -41,25 +41,9 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="Mono.Android" />
-    <Reference Include="Xamarin.Android.Support.v4">
-      <HintPath>..\packages\Xamarin.Android.Support.v4.23.1.1.1\lib\MonoAndroid403\Xamarin.Android.Support.v4.dll</HintPath>
-    </Reference>
-    <Reference Include="Xamarin.GooglePlayServices.Basement">
-      <HintPath>..\packages\Xamarin.GooglePlayServices.Basement.29.0.0.2\lib\MonoAndroid41\Xamarin.GooglePlayServices.Basement.dll</HintPath>
-    </Reference>
-    <Reference Include="Xamarin.GooglePlayServices.Base">
-      <HintPath>..\packages\Xamarin.GooglePlayServices.Base.29.0.0.2\lib\MonoAndroid41\Xamarin.GooglePlayServices.Base.dll</HintPath>
-    </Reference>
-    <Reference Include="Xamarin.GooglePlayServices.Measurement">
-      <HintPath>..\packages\Xamarin.GooglePlayServices.Measurement.29.0.0.2\lib\MonoAndroid41\Xamarin.GooglePlayServices.Measurement.dll</HintPath>
-    </Reference>
-    <Reference Include="Xamarin.GooglePlayServices.Gcm">
-      <HintPath>..\packages\Xamarin.GooglePlayServices.Gcm.29.0.0.2\lib\MonoAndroid41\Xamarin.GooglePlayServices.Gcm.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Additions\PushNotificationsService.cs" />
   </ItemGroup>
   <ItemGroup>
     <TransformFile Include="Transforms\EnumFields.xml" />
@@ -67,32 +51,16 @@
     <TransformFile Include="Transforms\Metadata.xml" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Jars\" />
-    <Folder Include="Additions\" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Otto.BindingLibrary\Otto.BindingLibrary.csproj">
-      <Project>{F51AF987-B472-4277-9668-F78F7C9918AC}</Project>
-      <Name>Otto.BindingLibrary</Name>
-    </ProjectReference>
     <ProjectReference Include="..\OkHttp.BindingLibrary\OkHttp.BindingLibrary.csproj">
       <Project>{A98329E1-0BB3-476B-B131-F77914143689}</Project>
       <Name>OkHttp.BindingLibrary</Name>
     </ProjectReference>
-    <ProjectReference Include="..\LiferayAndroidSdk.BindingLibrary\LiferayAndroidSdk.BindingLibrary.csproj">
-      <Project>{987C9DF7-DD6A-40F4-8D1C-8A5757162994}</Project>
-      <Name>LiferayAndroidSdk.BindingLibrary</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedReferenceJar Include="Jars\okio-1.4.0.jar" />
+    <Folder Include="Jars\" />
   </ItemGroup>
   <ItemGroup>
-    <LibraryProjectZip Include="Jars\liferay-push-release.aar" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="packages.config" />
+    <EmbeddedJar Include="Jars\liferay-android-sdk-2.0.2.jar" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
-  <Import Project="..\packages\Xamarin.GooglePlayServices.Basement.29.0.0.2\build\Xamarin.GooglePlayServices.Basement.targets" Condition="Exists('..\packages\Xamarin.GooglePlayServices.Basement.29.0.0.2\build\Xamarin.GooglePlayServices.Basement.targets')" />
 </Project>
