@@ -43,7 +43,7 @@ namespace PushiOS
         {
             LRBasicAuthentication BasicAuthentication = new LRBasicAuthentication("test@liferay.com", "test");
             LRSession Session = new LRSession("http://192.168.50.124:8080/", BasicAuthentication);
-            LRPush.WithSession(Session)
+            LiferayPush.LRPush.WithSession(Session)
                   .WithPortalVersion(70)
                   .OnSuccess((obj) => Console.WriteLine("Device registered successfully!"))
                   .OnFailure((err) => Console.WriteLine($"Device registered failed: {err.LocalizedDescription}"))
