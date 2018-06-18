@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>LiferayPush</id>
+    <version>1.0.0</version>
+    <authors>Liferay</authors>
+    <owners>Liferay Inc.</owners>
+    <projectUrl>https://www.nuget.org/packages/LiferayPush</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://community.liferay.com/images/projects/liferay-mobile-sdk.svg</iconUrl>
+    <description>Liferay Push to use in Xamarin.iOS and Xamarin.Droid solutions.</description>
+    <releaseNotes>Register and receive push notifications in your devices with Liferay Push for Xamarin</releaseNotes>
+    <copyright>Copyright © 2000-present Liferay, Inc. All rights reserved.</copyright>
+    <tags>liferay push notifications liferaypush ios android native library mobile</tags>
+    <dependencies>
+        <group targetFramework="MonoAndroid">
+            <dependency id="Xamarin.Android.Support.v4" version="23.1.1.1" />
+            <dependency id="Xamarin.GooglePlayServices.Base" version="29.0.0.2" />
+            <dependency id="Xamarin.GooglePlayServices.Basement" version="29.0.0.2" />
+            <dependency id="Xamarin.GooglePlayServices.Gcm" version="29.0.0.2" />
+            <dependency id="Xamarin.GooglePlayServices.Measurement" version="29.0.0.2" />
+        </group>
+        <group targetFramework="Xamarin.iOS10">
+            <dependency id="Xamarin.Swift3" version="3.0.1" />
+            <dependency id="Xamarin.Swift3.Core" version="3.1.0.2" />
+            <dependency id="Xamarin.Swift3.CoreGraphics" version="3.1.0.2" />
+            <dependency id="Xamarin.Swift3.CoreImage" version="3.1.0.2" />
+            <dependency id="Xamarin.Swift3.Darwin" version="3.1.0.2" />
+            <dependency id="Xamarin.Swift3.Dispatch" version="3.1.0.2" />
+            <dependency id="Xamarin.Swift3.Foundation" version="3.1.0.2" />
+            <dependency id="Xamarin.Swift3.ObjectiveC" version="3.1.0.2" />
+            <dependency id="Xamarin.Swift3.QuartzCore" version="3.1.0.2" />
+            <dependency id="Xamarin.Swift3.UIKit" version="3.1.0.2" />
+        </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <!-- Android -->
+    <file src="Liferay-Push-Android-Binding/bin/Release/Liferay-Push-Android-Binding.dll" target="lib/MonoAndroid41" />
+    <file src="Liferay-Push-Android-Binding/bin/Release/LiferayAndroidSdk.BindingLibrary.dll" target="lib/MonoAndroid403" />
+    <file src="Liferay-Push-Android-Binding/bin/Release/OkHttp.BindingLibrary.dll" target="lib/MonoAndroid403" />
+    <file src="Liferay-Push-Android-Binding/bin/Release/Otto.BindingLibrary.dll" target="lib/MonoAndroid403" />
+    <!-- iOS -->
+    <file src="Liferay-Push-iOS-Binding/bin/Release/Liferay-Push-iOS-Binding.dll" target="lib/Xamarin.iOS10" />
+  </files>
+</package>
