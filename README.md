@@ -9,9 +9,9 @@
 	* [Sending push notifications](#sending-push-notifications)
 	* [Unregistering a device](#unregistering-a-device)
 * [iOS](#ios)
-	* [Registering a device](#registering-a-device)
-	* [Sending push notifications](#sending-push-notifications)
-	* [Unregistering a device](#unregistering-a-device)
+	* [Registering a device](#registering-a-device-1)
+	* [Sending push notifications](#sending-push-notifications-1)
+	* [Unregistering a device](#unregistering-a-device-1)
 
 ## Setup
 
