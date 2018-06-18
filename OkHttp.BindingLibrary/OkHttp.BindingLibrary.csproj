@@ -8,7 +8,7 @@
     <OutputType>Library</OutputType>
     <RootNamespace>OkHttp.BindingLibrary</RootNamespace>
     <AssemblyName>OkHttp.BindingLibrary</AssemblyName>
-    <TargetFrameworkVersion>v4.0.3</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.1</TargetFrameworkVersion>
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
     <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
