@@ -37,7 +37,6 @@
   <files>
     <!-- Android -->
     <file src="LiferayAndroidSdk.BindingLibrary/bin/Release/LiferayAndroidSdk.BindingLibrary.dll" target="lib/MonoAndroid41" />
-    <file src="OkHttp.BindingLibrary/bin/Release/OkHttp.BindingLibrary.dll" target="lib/MonoAndroid41" />
     <file src="Liferay-Push-Android-Binding/bin/Release/Liferay-Push-Android-Binding.dll" target="lib/MonoAndroid41" />
     <!-- iOS -->
     <file src="Liferay-Push-iOS-Binding/bin/Release/Liferay-Push-iOS-Binding.dll" target="lib/Xamarin.iOS10" />

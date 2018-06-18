@@ -71,10 +71,6 @@
     <Folder Include="Additions\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\OkHttp.BindingLibrary\OkHttp.BindingLibrary.csproj">
-      <Project>{A98329E1-0BB3-476B-B131-F77914143689}</Project>
-      <Name>OkHttp.BindingLibrary</Name>
-    </ProjectReference>
     <ProjectReference Include="..\LiferayAndroidSdk.BindingLibrary\LiferayAndroidSdk.BindingLibrary.csproj">
       <Project>{987C9DF7-DD6A-40F4-8D1C-8A5757162994}</Project>
       <Name>LiferayAndroidSdk.BindingLibrary</Name>
@@ -83,6 +79,7 @@
   <ItemGroup>
     <EmbeddedReferenceJar Include="Jars\okio-1.4.0.jar" />
     <EmbeddedReferenceJar Include="Jars\otto-1.3.8.jar" />
+    <EmbeddedReferenceJar Include="Jars\okhttp-2.4.0.jar" />
   </ItemGroup>
   <ItemGroup>
     <LibraryProjectZip Include="Jars\liferay-push-release.aar" />
