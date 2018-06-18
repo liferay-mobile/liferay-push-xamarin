@@ -93,10 +93,6 @@
       <Project>{A98329E1-0BB3-476B-B131-F77914143689}</Project>
       <Name>OkHttp.BindingLibrary</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Otto.BindingLibrary\Otto.BindingLibrary.csproj">
-      <Project>{F51AF987-B472-4277-9668-F78F7C9918AC}</Project>
-      <Name>Otto.BindingLibrary</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Liferay-Push-Android-Binding\Liferay-Push-Android-Binding.csproj">
       <Project>{BF3237D1-E891-436C-A28E-980786F4A76F}</Project>
       <Name>Liferay-Push-Android-Binding</Name>

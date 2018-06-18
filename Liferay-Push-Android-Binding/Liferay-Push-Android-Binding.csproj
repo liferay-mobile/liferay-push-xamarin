@@ -71,10 +71,6 @@
     <Folder Include="Additions\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Otto.BindingLibrary\Otto.BindingLibrary.csproj">
-      <Project>{F51AF987-B472-4277-9668-F78F7C9918AC}</Project>
-      <Name>Otto.BindingLibrary</Name>
-    </ProjectReference>
     <ProjectReference Include="..\OkHttp.BindingLibrary\OkHttp.BindingLibrary.csproj">
       <Project>{A98329E1-0BB3-476B-B131-F77914143689}</Project>
       <Name>OkHttp.BindingLibrary</Name>
@@ -86,6 +82,7 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedReferenceJar Include="Jars\okio-1.4.0.jar" />
+    <EmbeddedReferenceJar Include="Jars\otto-1.3.8.jar" />
   </ItemGroup>
   <ItemGroup>
     <LibraryProjectZip Include="Jars\liferay-push-release.aar" />
