@@ -7,7 +7,9 @@
     <owners>Liferay Inc.</owners>
     <projectUrl>https://www.nuget.org/packages/LiferayPush</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/liferay/liferay-screens/blob/master/LICENSE.md</licenseUrl>
     <iconUrl>https://community.liferay.com/images/projects/liferay-mobile-sdk.svg</iconUrl>
+    <title>LiferayPush</title>
     <description>Liferay Push to use in Xamarin.iOS and Xamarin.Droid solutions.</description>
     <releaseNotes>Register and receive push notifications in your devices with Liferay Push for Xamarin</releaseNotes>
     <copyright>Copyright © 2000-present Liferay, Inc. All rights reserved.</copyright>
