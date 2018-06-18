@@ -24,14 +24,14 @@ namespace PushAndroid
                 .Register(this, "393909434085");
         }
 
-        public void OnSuccess(JSONObject p0)
+        public void OnSuccess(JSONObject json)
         {
-            Console.WriteLine($"Device registered succesfully: {p0}");
+            Console.WriteLine($"Device registered succesfully: {json}");
         }
 
-        public void OnFailure(Java.Lang.Exception p0)
+        public void OnFailure(Java.Lang.Exception e)
         {
-            Console.WriteLine($"Device register failed: {p0.Message}");
+            Console.WriteLine($"Device register failed: {e.Message}");
         }
     }
 }
