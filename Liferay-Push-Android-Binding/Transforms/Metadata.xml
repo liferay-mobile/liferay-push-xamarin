@@ -4,4 +4,7 @@
     <attr path="api/package[@name='com.liferay.mobile.push']/class[@name='Push']/field[@name='onFailure']" name="managedName">OnFailureField</attr>
     <attr path="api/package[@name='com.liferay.mobile.push']/class[@name='Push']/field[@name='onSuccess']" name="managedName">OnSuccessField</attr>
     <attr path="api/package[@name='com.liferay.mobile.push']/class[@name='Push']/field[@name='onPushNotification']" name="managedName">OnPushNotificationField</attr>
+
+    <!-- CS0534 -->
+    <remove-node path="/api/package[@name='com.liferay.mobile.push.task']/class[@name='GoogleCloudMessagingAsyncTask']/method[@name='doInBackground']" />
 </metadata>

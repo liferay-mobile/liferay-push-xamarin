@@ -60,6 +60,7 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Additions\PushNotificationsService.cs" />
+    <Compile Include="Additions\GoogleCloudMessagingAsyncTask.cs" />
   </ItemGroup>
   <ItemGroup>
     <TransformFile Include="Transforms\EnumFields.xml" />
